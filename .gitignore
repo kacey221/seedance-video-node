@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+config/seedance-video.json
+*.safetensors
+storage/generated-videos/
+storage/seedance-cache/

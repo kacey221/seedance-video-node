@@ -1,0 +1,5 @@
+on_http_request:
+  - expressions:
+      - "req.url.path != '/' && req.url.path != '/privacy' && req.url.path != '/api/pinterest/callback'"
+    actions:
+      - type: deny

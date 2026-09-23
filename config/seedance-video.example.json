@@ -1,0 +1,17 @@
+{
+  "provider": "seedance",
+  "baseUrl": "https://ark.cn-beijing.volces.com",
+  "apiKeyEnv": "VOLCENGINE_ARK_API_KEY",
+  "defaultModel": "dreamina-seedance-2-0-260128",
+  "models": {
+    "seedance-2.5": "doubao-seedance-2-5-260628",
+    "seedance-2.0": "dreamina-seedance-2-0-260128",
+    "seedance-2.0-fast": "dreamina-seedance-2-0-fast-260128",
+    "seedance-2.0-mini": "doubao-seedance-2-0-mini-260615",
+    "seedance-1.5-pro": "doubao-seedance-1-5-pro-251215",
+    "seedance-1.0-pro-fast": "doubao-seedance-1-0-pro-fast-251015"
+  },
+  "pollIntervalMs": 4000,
+  "pollTimeoutMs": 480000,
+  "cacheDir": "storage/generated-videos"
+}
