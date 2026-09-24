@@ -106,6 +106,11 @@ export default function App() {
       <header className="h-14 border-b border-slate-200/70 flex items-center justify-between px-4 shrink-0 bg-white/75 backdrop-blur-xl z-30 shadow-xs relative">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
+            <img
+              src="/artlab-logo.png"
+              alt=""
+              className="h-7 w-7 rounded-full object-cover"
+            />
             <span className={`text-xl font-black bg-gradient-to-r ${SOFT_PINK_LILAC_GRADIENT_CLASSES} bg-clip-text text-transparent select-none font-sans pl-1 tracking-wide`}>
               Artlab.ai
             </span>
